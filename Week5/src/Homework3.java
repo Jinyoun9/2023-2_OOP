@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class MINMAX{
-    int Min, Max;
+    int Min,Max;
     int getMin(int[] arr, int arrSize){
         this.Min = arr[0];
         for(int i=1;i<arrSize;i++){
