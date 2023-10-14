@@ -28,7 +28,6 @@ public class Homework4 {
         Homework4 hw = new Homework4();
         int m = sc.nextInt();
         int n = sc.nextInt();
-        int res = hw.gcd(m, n);
-        System.out.printf("%d\n", res);
+        System.out.printf("%d\n", hw.gcd(m, n));
     }
 }
