@@ -9,8 +9,7 @@ public class Homework4 {
         }
     }*/
     int gcd(int m, int n){
-        int res = 0;
-        while(res == 0) {
+        while(true) {
             if (m == 0) return m;
             else if (m % n == 0) {
                 return n;
@@ -22,7 +21,7 @@ public class Homework4 {
                 n = temp;
             }
         }
-        return 0;
+
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
