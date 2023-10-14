@@ -1,14 +1,14 @@
 import java.util.Scanner;
 public class Homework4 {
-    /*int gcd(int m, int n){
+    int gcd(int m, int n){
         if (m == 0) return m;
         else if (m % n == 0) return n;
         else{
             m = m % n;
             return gcd(n, m);
         }
-    }*/
-    int gcd(int m, int n){
+    }
+    /*int gcd(int m, int n){
         while(true) {
             if (m == 0) return m;
             else if (m % n == 0) {
@@ -22,7 +22,7 @@ public class Homework4 {
             }
         }
 
-    }
+    }*/
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Homework4 hw = new Homework4();
