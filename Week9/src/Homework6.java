@@ -38,6 +38,5 @@ public class Homework6 {
         OnlineCourse course2 = new OnlineCourse("HAFL0012", "C Programming 1");
         System.out.println(course1);
         System.out.println(course2);
-
     }
 }
