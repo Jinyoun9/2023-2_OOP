@@ -21,7 +21,6 @@ class InkjetPrinter extends Printer{
             System.out.printf("%s: %d째 인쇄 실패 - 잉크 부족\n", model, printedCount+1);
             printable = false;
         }
-
         return printable;
     }
 }
